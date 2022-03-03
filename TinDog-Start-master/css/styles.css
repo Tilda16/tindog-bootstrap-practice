@@ -1,11 +1,12 @@
 /* Hello */
 #title {
   background-color: #ff4c68;
+  color: #fff;
 }
 
 .header {
   font-family: 'montserrat';
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 
@@ -15,9 +16,44 @@
   padding: 3% 15%;
 }
 
+
+body {
+  font-family: 'montserrat';
+  font-weight: 400;
+}
+
+/* navigation bar */
+
 .Ubuntu-font {
   font-family: 'Ubuntu';
   line-height: 1.5;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 3rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'montserrat';
+  font-weight: 300;
+}
+
+/* Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title-image */
+
+.dog-phone-img {
+  transform: rotate(25deg);
+  width: 60%;
 }
