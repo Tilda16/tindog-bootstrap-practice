@@ -2,3 +2,11 @@
 #title {
   background-color: #ff4c68;
 }
+
+.header {
+  font-family: 'montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
