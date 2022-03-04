@@ -20,6 +20,8 @@
 body {
   font-family: 'montserrat';
   font-weight: 400;
+  margin:0;
+  padding: 0;
 }
 
 /* navigation bar */
@@ -60,9 +62,43 @@ body {
 
 /* Features of the app */
 
+#features {
+  padding: 16% 4% 16% 4%;
+}
 
 .feature {
   display:flex;
   flex-direction: column;
   align-items: center;
+}
+
+.feature-icon {
+  color: #ef8172;
+  max-width: 100%;
+}
+
+.ad-feature {
+  font-family: 'montserrat';
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 3%;
+}
+
+.text-feature {
+  text-align: center;
+  color: #8f8f8f;
+  width: 45%;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Bootstrap Carousel */
+
+#testimonials {
+  padding: 8% 16%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
 }
