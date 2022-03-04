@@ -102,3 +102,27 @@ body {
   background-color: #ef8172;
   color: #fff;
 }
+
+.testimonials__text {
+  font-family: 'montserrat';
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials__img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press__logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
