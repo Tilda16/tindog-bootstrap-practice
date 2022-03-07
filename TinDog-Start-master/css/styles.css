@@ -1,6 +1,6 @@
 /* Hello */
 #title {
-  background-color: #ff4c68;
+  background-color: #D597CE;
   color: #fff;
 }
 
@@ -22,6 +22,26 @@ body {
   font-weight: 400;
   margin:0;
   padding: 0;
+}
+
+.f-w__700 {
+  font-weight: 700;
+}
+
+.f-w__900 {
+  font-weight: 900;
+}
+
+.text-color__light-grey {
+color: #8f8f8f;
+}
+
+.text-color__light-purple {
+  color: #9182C4;
+}
+
+.text-color__light-pink {
+  color: #D597CE;
 }
 
 /* navigation bar */
@@ -73,7 +93,7 @@ body {
 }
 
 .feature-icon {
-  color: #ef8172;
+  color: #9182C4;
   max-width: 100%;
 }
 
@@ -91,15 +111,14 @@ body {
 }
 
 .feature-icon:hover {
-  color: #ff4c68;
+  color: #D597CE;
 }
 
 /* Testimonials Bootstrap Carousel */
 
 #testimonials {
-  padding: 8% 16%;
   text-align: center;
-  background-color: #ef8172;
+  background-color: #9182C4;
   color: #fff;
 }
 
@@ -110,14 +129,18 @@ body {
   line-height: 1.5;
 }
 
-.testimonials__img {
+.carousel-item {
+    padding: 8% 16%;
+}
+
+.testimonial__image{
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
 
 #press {
-  background-color: #ef8172;
+  background-color: #9182C4;
   padding-bottom: 3%;
   text-align: center;
 }
@@ -125,4 +148,39 @@ body {
 .press__logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price {
+  font-size: 2.5rem;
+}
+
+.pricing-section__header {
+  font-size: 3.5rem
+}
+
+.plan-2 {
+  background-color: #D597CE;
+}
+
+.plan-2:hover {
+background-color: #9182C4;
+}
+
+.plan-3 {
+  background-color: #9182C4;
+}
+
+.plan-3:hover {
+  background-color: #D597CE;
 }
