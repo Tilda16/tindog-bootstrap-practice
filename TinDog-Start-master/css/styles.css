@@ -2,6 +2,7 @@
 body {
     font-weight: 400;
     font-family: 'montserrat';
+    text-align: center;
 }
 
 p {
@@ -45,16 +46,8 @@ p {
     margin-bottom: 0;
   }
 }
-
-
-
-
-.text-color__light-purple {
-  color: #9182C4;
-}
-
-.text-color__light-pink {
-  color: #D597CE;
+#title .container-fluid {
+  text-align: left;
 }
 
 /* navigation bar */
@@ -126,7 +119,6 @@ p {
 }
 
 .text-feature {
-  text-align: center;
   color: #8f8f8f;
   width: 45%;
 }
@@ -137,7 +129,6 @@ p {
 
 /* Testimonials Bootstrap Carousel */
 #testimonials {
-  text-align: center;
   background-color: #9182C4;
   color: #fff;
 }
@@ -162,7 +153,6 @@ p {
 #press {
   background-color: #9182C4;
   padding-bottom: 3%;
-  text-align: center;
 }
 
 .press__logo {
@@ -171,9 +161,10 @@ p {
 }
 
 /* Pricing Section */
+
+
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
@@ -184,32 +175,33 @@ p {
   font-size: 2.5rem;
 }
 
-
-
 .hidden {
   visibility: hidden;
 }
 
 .plan-2 {
-  background-color: #D597CE;
+  background-color: #fff;
+  border-color: #D597CE
 }
 
 .plan-2:hover {
-  background-color: #9182C4;
+    background-color: #D597CE;
+
 }
 
 .plan-3 {
-  background-color: #9182C4;
+  background-color: #fff;
+  border-color: #9182C4;
 }
 
 .plan-3:hover {
-  background-color: #D597CE;
+  background-color: #9182C4;
+  border: none;
 }
 
 /* call to action */
 #cta {
   background-color: #D597CE;
-  text-align: center;
   padding: 8% 4%;
 }
 
@@ -228,7 +220,6 @@ p {
 
 /* Footer */
 #footer {
-  text-align: center;
   background-color: #fff;
   padding: 8% 4%;
   align-items: center;
