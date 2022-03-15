@@ -10,14 +10,12 @@
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
-
 }
 
 @media (max-width: 990px) {
   #title {
     text-align: center;
   }
-
 }
 
 .navigation-container {
@@ -31,11 +29,10 @@
   }
 }
 
-
 body {
   font-family: 'montserrat';
   font-weight: 400;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 
@@ -48,7 +45,7 @@ body {
 }
 
 .text-color__light-grey {
-color: #8f8f8f;
+  color: #8f8f8f;
 }
 
 .text-color__light-purple {
@@ -60,7 +57,6 @@ color: #8f8f8f;
 }
 
 /* navigation bar */
-
 .Ubuntu-font {
   font-family: 'Ubuntu';
   line-height: 1.5;
@@ -83,14 +79,12 @@ color: #8f8f8f;
 }
 
 /* Download buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
   position: static;
 }
 
 /* Title-image */
-
 .dog-phone-img {
   transform: rotate(25deg);
   width: 60%;
@@ -98,14 +92,14 @@ color: #8f8f8f;
   left: 30%;
 }
 
-@media (max-width: 1028px)  {
+@media (max-width: 1028px) {
   .dog-phone-img {
     position: static;
     transform: rotate(0);
   }
 }
-/* Features of the app */
 
+/* Features of the app */
 #features {
   padding: 16% 4% 16% 4%;
   background-color: #fff;
@@ -113,7 +107,7 @@ color: #8f8f8f;
 }
 
 .feature {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -141,7 +135,6 @@ color: #8f8f8f;
 }
 
 /* Testimonials Bootstrap Carousel */
-
 #testimonials {
   text-align: center;
   background-color: #9182C4;
@@ -156,10 +149,10 @@ color: #8f8f8f;
 }
 
 .carousel-item {
-    padding: 8% 16%;
+  padding: 8% 16%;
 }
 
-.testimonial__image{
+.testimonial__image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
@@ -177,7 +170,6 @@ color: #8f8f8f;
 }
 
 /* Pricing Section */
-
 #pricing {
   padding: 100px;
   text-align: center;
@@ -204,7 +196,7 @@ color: #8f8f8f;
 }
 
 .plan-2:hover {
-background-color: #9182C4;
+  background-color: #9182C4;
 }
 
 .plan-3 {
@@ -216,7 +208,6 @@ background-color: #9182C4;
 }
 
 /* call to action */
-
 #cta {
   background-color: #D597CE;
   text-align: center;
@@ -237,7 +228,6 @@ background-color: #9182C4;
 }
 
 /* Footer */
-
 #footer {
   text-align: center;
   background-color: #fff;
