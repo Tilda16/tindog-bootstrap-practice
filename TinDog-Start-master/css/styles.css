@@ -1,4 +1,7 @@
+
 /* html elements  */
+
+
 body {
     font-weight: 400;
     font-family: 'montserrat';
@@ -10,6 +13,7 @@ p {
 }
 
 /* title Section */
+
 
 #title {
   background-color: #D597CE;
@@ -24,6 +28,8 @@ p {
 }
 
 /* headers */
+
+
 .big-header {
   font-family: 'montserrat';
   font-size: 3.5rem;
@@ -36,6 +42,8 @@ p {
 }
 
 /* Containers */
+
+
 .navigation-container {
   padding: 3% 15%;
   margin-bottom: -12%;
@@ -51,6 +59,8 @@ p {
 }
 
 /* navigation bar */
+
+
 .company-name {
   font-family: 'Ubuntu';
   line-height: 1.5;
@@ -73,12 +83,16 @@ p {
 }
 
 /* Download buttons */
+
+
 .download-button {
   margin: 5% 3% 5% 0;
   position: static;
 }
 
 /* Title-image */
+
+
 .dog-phone-img {
   transform: rotate(25deg);
   width: 60%;
@@ -94,6 +108,8 @@ p {
 }
 
 /* Features of the app */
+
+
 #features {
   padding: 16% 4% 16% 4%;
   background-color: #fff;
@@ -128,6 +144,8 @@ p {
 }
 
 /* Testimonials Bootstrap Carousel */
+
+
 #testimonials {
   background-color: #9182C4;
   color: #fff;
@@ -200,6 +218,8 @@ p {
 }
 
 /* call to action */
+
+
 #cta {
   background-color: #D597CE;
   padding: 8% 4%;
@@ -219,6 +239,8 @@ p {
 }
 
 /* Footer */
+
+
 #footer {
   background-color: #fff;
   padding: 8% 4%;
