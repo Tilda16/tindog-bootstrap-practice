@@ -3,7 +3,6 @@
   background-color: #D597CE;
   color: #fff;
   position: relative;
-  z-index: -1;
 }
 
 .header {
@@ -21,13 +20,13 @@
 
 }
 
-.container-fluid {
+.navigation-container {
   padding: 3% 15%;
   margin-bottom: -12%;
 }
 
 @media (max-width: 990px) {
-  .container-fluid {
+  .navigation-container {
     margin-bottom: 0;
   }
 }
@@ -196,6 +195,10 @@ color: #8f8f8f;
   font-size: 3.5rem
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .plan-2 {
   background-color: #D597CE;
 }
@@ -210,4 +213,43 @@ background-color: #9182C4;
 
 .plan-3:hover {
   background-color: #D597CE;
+}
+
+/* call to action */
+
+#cta {
+  background-color: #D597CE;
+  text-align: center;
+  padding: 8% 4%;
+}
+
+.action__header {
+  font-family: 'montserrat';
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3rem;
+  padding-bottom: 4%;
+  color: #fff;
+}
+
+.action__button {
+  margin: 2%;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 8% 4%;
+  align-items: center;
+}
+
+.footer-p {
+  color: #8f8f8f;
+  padding-top: 2%;
+}
+
+.footer__icon {
+  padding-right: 1%;
 }

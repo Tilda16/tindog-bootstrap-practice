@@ -20,26 +20,26 @@
 <body>
 
   <section id="title">
-    <div class="container-fluid">
+    <div class="container-fluid navigation-container">
 
       <!-- Nav Bar -->
 
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger-ingredients" aria-controls="navbarsExample05" aria-expanded="true" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#quick-jump" aria-controls="navbarsExample05" aria-expanded="true" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand Ubuntu-font" href="">tindog</a>
-        <div class="collapse navbar-collapse" id="hamburger-ingredients">
+        <div class="collapse navbar-collapse" id="quick-jump">
           <ul class="navbar-nav ms-auto">
 
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
@@ -50,8 +50,8 @@
       <div class="row">
         <div class="col-lg-6 header">
           <h1 class="header">Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+          <button type="button" class="btn btn-dark btn-lg action__button"><i class="fa-brands fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-light btn-lg action__button"><i class="fa-brands fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6">
           <img src="images/iphone6.png" alt="iphone-mockup" class="dog-phone-img">
@@ -160,6 +160,7 @@
             <p class="text-color__light-grey">5 Matches Per Day</p>
             <p class="text-color__light-grey">10 Messages Per Day</p>
             <p class="text-color__light-grey">Unlimited App Usage</p>
+            <a href="#" class="hidden">.</a>
             <div class="d-grid gap-2">
               <button type="button" class="btn btn-outline-dark">Sign Up</button>
 
@@ -181,6 +182,7 @@
             <p class="text-color__light-grey">Unlimited Matches</p>
             <p class="text-color__light-grey">Unlimited Messages</p>
             <p class="text-color__light-grey">Unlimited App Usage</p>
+            <a href="#" class="hidden">.</a>
             <div class="d-grid gap-2">
 
               <button type="button" class="btn plan-2">Sign Up</button>
@@ -223,9 +225,9 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="action__header">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg action__button"><i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-light btn-lg action__button"><i class="fa-brands fa-google-play"></i> Download</button>
 
   </section>
 
@@ -234,7 +236,11 @@
 
   <footer id="footer">
 
-    <p>© Copyright TinDog</p>
+    <i class="fa-brands fa-twitter footer__icon"></i>
+    <i class="fa-brands fa-facebook-f footer__icon"></i>
+    <i class="fa-brands fa-instagram footer__icon"></i>
+    <i class="fa-solid fa-envelope footer__icon"></i>
+    <p class="footer-p">© Copyright 2018 TinDog</p>
 
   </footer>
 
